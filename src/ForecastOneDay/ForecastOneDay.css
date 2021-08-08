@@ -1,0 +1,32 @@
+.myApp {
+    background: rgb(168, 218, 218);
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid rgb(114, 74, 209);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: transform 1s ease-in
+}
+
+.myApp:hover {
+    transform: rotate(30deg) scale(1);
+    background: rgb(33, 223, 182);
+  }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: medium;
+    color:rgb(39, 17, 245)
+}
+
+.spanTemp {
+    color: grey;
+    font-size: medium;
+}
+
+.spanDesc {
+    font-weight: 600;
+    font-size: large;
+}
